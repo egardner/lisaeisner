@@ -105,6 +105,6 @@ module.exports = function(grunt) {
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['sass', 'concat', 'uglify', 'imagemin', 'jekyll']);
-    grunt.registerTask('preview', ['connect', 'sass', 'jekyll:dist', 'watch']);
+    grunt.registerTask('preview', ['connect', 'concat', 'uglify', 'sass', 'jekyll:dist', 'watch']);
 
 };
