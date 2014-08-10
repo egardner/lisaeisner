@@ -1,6 +1,7 @@
 # Node Modules #
 # This repository is a template; all dependencies should be rebuilt locally #
 node_modules/
+node_modules
 
 # Compiled assets #
 css/build
