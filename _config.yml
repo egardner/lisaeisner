@@ -6,6 +6,7 @@ baseurl: "http://ericgardner.info/sandbox/lisaeisner"
 url: "http://yourdomain.com"
 twitter_username: jekyllrb
 github_username:  jekyll
+exclude: ['node_modules', '.sass-cache', 'gruntfile.js', 'package.json', '.gitignore', 'js/libs', 'css/base', 'css/bourbon', 'css/neat', '*.scss']
 
 # Build settings
 markdown: kramdown

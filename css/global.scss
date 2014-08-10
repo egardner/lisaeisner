@@ -2,9 +2,4 @@
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
-
-$color: #ece9e9;
-
-body {
-	background-color: $color;
-}
+@import "styles";

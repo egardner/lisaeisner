@@ -5,8 +5,12 @@ node_modules
 
 # Compiled assets #
 css/build
+css/build/
 js/build
+js/build/
+css/build/global
 .sass-cache/
+_site
 
 # Compiled source #
 ###################

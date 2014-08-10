@@ -42,15 +42,20 @@ module.exports = function(grunt) {
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
-                },
+                }
             },
 
             css: {
                 files: ['css/*.scss'],
-                tasks: ['sass'],
+                tasks: ['sass', 'jekyll:dist'],
                 options: {
                     spawn: false,
                 }
+            },
+
+            html: {
+                files: ['**/*.html', '!_site/**/*.html'],
+                tasks: ['jekyll:dist']
             }
         },
 
@@ -58,6 +63,8 @@ module.exports = function(grunt) {
             client: {
                 options: {
                     port: 9000,
+                    livereload: true,
+                    base: '_site/',
                 }
             }
         },
@@ -71,8 +78,20 @@ module.exports = function(grunt) {
                     'css/build/global.css': 'css/global.scss'
                 }
             }
-        }
+        },
 
+        jekyll: {                             // Task
+            options: {                          // Universal options
+                //bundleExec: true,
+                src : '.'
+            },
+            dist: {                             // Target
+                options: {                        // Target options
+                    dest: '_site',
+                    config: '_config.yml,'
+                }
+            },
+        }
     });
 
     // 3. Where we tell Grunt we plan to use this plug-in.
@@ -85,7 +104,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['sass', 'concat', 'uglify', 'imagemin']);
-    grunt.registerTask('preview', ['connect', 'watch']);
+    grunt.registerTask('default', ['sass', 'concat', 'uglify', 'imagemin', 'jekyll']);
+    grunt.registerTask('preview', ['connect', 'sass', 'jekyll:dist', 'watch']);
 
 };
