@@ -1,6 +1,87 @@
-//$color: #ece9e9;
-$color: green;
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
+*/
+
+// Global Variables and Mixins
+// --------------------------------------------------
+$font-stack:  "BT Futura W01", Helvetica, Arial, sans-serif;
+$primary-color: #333;
+$secondary-color: #00BA76;
+$background-color: #222;
+// $background: no-repeat center center fixed;
+
+$letter-spacing: 5px;
+$text-shadow: 2px 2px 8px #333;
+$pad: 30px;
+
+
+// bourbon variables
+// $max-width: 68em;
+$visual-grid: true;
+$visual-grid-color: #333;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.1;
+
+
+
+
+
+@import "neat/neat";
+@import "hero";
+
+
+
+// Layout
+// --------------------------------------------------
 
 body {
-	background-color: $color;
+	margin: 0px;
+	font: 100% $font-stack;
+	z-index: 1;
+}
+
+.bleed {
+	@include background (no-repeat center center fixed);
+	// background-color: $background-color;
+	height: 100vh;
+
+}
+
+.container {
+	//@include padding (1em);
+	@include outer-container;
+	
+}
+
+.header {
+	@include clearfix;
+	@include span-columns(12);
+}
+
+.title-container {
+	@include span-columns(6);
+}
+
+.nav-container {
+	@include span-columns(6);
+	@include omega;
+	ul {
+		display: inline-block;
+	}
+}
+
+.content {
+	@include span-columns(12);
+}
+
+// Typography
+// --------------------------------------------------
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-stack;
+	font-weight: 200;
+	letter-spacing: $letter-spacing;
+	text-transform: uppercase;
 }
