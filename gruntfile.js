@@ -46,11 +46,8 @@ module.exports = function(grunt) {
             },
 
             css: {
-                files: ['css/*.scss'],
+                files: ['**/*.scss'],
                 tasks: ['sass', 'jekyll:dist'],
-                options: {
-                    spawn: false,
-                }
             },
 
             html: {
