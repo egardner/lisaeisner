@@ -7,8 +7,9 @@ module.exports = function(grunt) {
         concat: {
             dist: {
                 src: [
+                        'js/jquery.js',     // must import jQuery first
                         'js/libs/*.js',     // all JS in the libs folder
-                        'js/global.js'
+                        // 'js/global.js'
                 ],
                 dest: 'js/build/production.js', 
             }
@@ -40,9 +41,6 @@ module.exports = function(grunt) {
             scripts: {
                 files: ['js/*.js'],
                 tasks: ['concat', 'uglify'],
-                options: {
-                    spawn: false,
-                }
             },
 
             css: {
