@@ -1,4 +1,4 @@
-@import "normalize.css";
-@import "bourbon/bourbon";
-@import "base/base";
-@import "styles";
+@import '0-plugins/plugins-dir.scss';
+@import '1-base/base-dir.scss';
+@import '2-modules/modules-dir.scss';
+@import '3-layouts/layouts-dir.scss';
