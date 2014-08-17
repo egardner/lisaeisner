@@ -9,7 +9,6 @@ module.exports = function(grunt) {
                 src: [
                         'js/jquery.js',     // must import jQuery first
                         'js/libs/*.js',     // all JS in the libs folder
-                        'js/global.js'
                 ],
                 dest: 'js/build/production.js', 
             }
