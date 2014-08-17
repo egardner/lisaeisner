@@ -8,6 +8,7 @@ css/build
 css/build/
 js/build
 js/build/
+js/build/*
 css/build/global
 .sass-cache/
 _site
@@ -50,3 +51,7 @@ _site
 ehthumbs.db
 Thumbs.db
 css/build/global.css
+
+js/build/production.js
+
+js/build/production.min.js
