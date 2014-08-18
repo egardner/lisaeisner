@@ -5,7 +5,18 @@
 {% include nav.html %}
 <div class="content">
 	<article>
+		<h1>{{page.title}}</h1>
+		{% if page.callout %}
+			<h2>{{page.callout}}</h2>
+		{% endif %}
+		{% if page.date %}
+			<p class="date">{{page.date}}</p>
+		{% endif %}
 		{{content}}
+		{% if page.author %}
+			<hr>
+			<p class="author">Author Name</p>
+		{% endif %}
 	</article>
 </div>
 </body>

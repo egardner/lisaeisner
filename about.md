@@ -1,16 +1,13 @@
 ---
 layout: default
 title: About Lisa Eisner Jewelry
-
+callout: "This is an example of how call-out text at the beginning of our story looks. It helps to have a few lines of lead-in text to immediately grab the reader's attention."
+date: "30 Mar 2014"
+author: "Author Name"
 ---
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.
+<a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>  
 
-<h1>Article Heading</h1>
-<h2>These override some of the styles specified in the and partials in <a href="//bitters.bourbon.io">Bitters</a>. You can replace the typography variables and the header font specifications in Bitters with these styles. Then you won&rsquo;t need the wrapping class</h2>
-<p class="date">30 Mar 2014</p>
-<p><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.
-<a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>
-</p>
-<h3>Subheading lorem</h3>
-<p><span>Consequatur ullam, voluptatum</span> incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Accusamus. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit! Accusamus.</p>
-<hr>
-<p class="author">Author Name</p>
+###Subheading lorem###
+
+Consequatur ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Accusamus. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit! Accusamus.
