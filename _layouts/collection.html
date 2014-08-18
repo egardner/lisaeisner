@@ -2,10 +2,18 @@
 <html>
 {% include head.html %}
 <body class="collection">
-<div class="bleed">
+<div class="backstretch">
+	{% include nav.html %}
 </div>
-
-</div>
-
+<script type="text/javascript">
+    $.backstretch([
+      "/images/collection_01.jpg",
+      "/images/collection_02.jpg",
+      "/images/collection_03.jpg"
+      ], {
+        fade: 750,
+        duration: 4000
+    });
+</script>
 </body>
 </html>
