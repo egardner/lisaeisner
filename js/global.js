@@ -1,3 +1,4 @@
+// responsive menu
 $(document).ready(function() {
   var menu = $('#navigation-menu');
   var menuToggle = $('#js-mobile-menu');
