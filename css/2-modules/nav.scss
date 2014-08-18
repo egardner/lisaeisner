@@ -36,6 +36,7 @@ header.navigation {
     max-height: $navigation-height;
     padding-left: $navigation-padding;
     padding-right: 2em;
+    z-index: 1000;
 
     img {
       max-height: $navigation-height;
@@ -133,7 +134,6 @@ header.navigation {
   }
 
   .active-nav-item a {
-    border-bottom: 1px solid $navigation-active-link-color;
     padding-bottom: 3px;
   }
 
