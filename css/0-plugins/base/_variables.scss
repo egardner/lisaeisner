@@ -3,6 +3,8 @@ $sans-serif: $futura;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $futura;
+$header-font-weight: 300;
+$body-font-weight: 300;
 
 // Sizes
 $base-font-size: 1em;
@@ -19,13 +21,14 @@ $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
+$turquoise: #3faba9;
 
 // Background Color
-$base-background-color: white;
+$base-background-color: $dark-gray;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-font-color: white;
+$base-accent-color: $turquoise;
 
 // Link Colors
 $base-link-color: $base-accent-color;

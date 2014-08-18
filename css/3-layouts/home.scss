@@ -26,11 +26,11 @@ body.home .header-container {
 
 		@include media($large-screen-up) {
 			font-size: $base-font-size * 3.25;
-			letter-spacing: 5px;
+			letter-spacing: 7px;
 		}
 		
 		@include media($xlarge-screen-up) {
-			font-size: $base-font-size * 4;
+			font-size: $base-font-size * 3.75;
 		}
 	}
 
