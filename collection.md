@@ -1,17 +1,22 @@
 ---
 layout: collection
 gallery:
- - image: /images/collection_01.jpg
- - image: /images/collection_02.jpg
- - image: /images/collection_03.jpg
- - image: /images/collection_04.jpg
- - image: /images/collection_05.jpg
- - image: /images/collection_06.jpg
- - image: /images/collection_07.jpg
- - image: /images/collection_08.jpg
- - image: /images/collection_09.jpg
- - image: /images/collection_10.jpg
- - image: /images/collection_11.jpg
- - image: /images/collection_13.jpg
- - image: /images/collection_14.jpg
+ - image: /images/01.jpg
+ - image: /images/02.jpg
+ - image: /images/03.jpg
+ - image: /images/04.jpg
+ - image: /images/05.jpg
+ - image: /images/05b.jpg
+ - image: /images/06.jpg
+ - image: /images/07.jpg
+ - image: /images/08.jpg 
+ - image: /images/09.jpg
+ - image: /images/10.jpg
+ - image: /images/11.jpg
+ - image: /images/11b.jpg
+ - image: /images/11c.jpg
+ - image: /images/12.jpg
+ - image: /images/13.jpg
+ - image: /images/14.jpg
+ - image: /images/15.jpg
 ---
