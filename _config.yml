@@ -1,15 +1,15 @@
 # Site settings
-title: Lisa Eisner Studio
+title: Lisa Eisner Jewelry
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "http://ericgardner.info/sandbox/lisaeisner"
+baseurl: "/"
 url: "http://yourdomain.com"
 twitter_username: jekyllrb
 github_username:  jekyll
-exclude: ['node_modules', '.sass-cache', 'gruntfile.js', 'package.json', '.gitignore', 'js/libs', 'css/base', 'css/bourbon', 'css/neat', '*.scss']
+exclude: ['node_modules', 'README.md', '.sass-cache', 'gruntfile.js', 'package.json', '.gitignore', 'js/libs', 'js/jquery.js', 'css/0-plugins', 'css/base', 'css/bourbon', 'css/neat', '*.scss']
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
 sass:
     style: compressed

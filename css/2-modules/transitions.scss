@@ -1,0 +1,115 @@
+/*
+ *  Based on http://css-tricks.com/add-page-transitions-css-smoothstate-js/
+ */
+
+// Define Keyframes
+
+@include keyframes(fadeIn) {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@include keyframes(fadeInAfter) {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@include keyframes(fadeInUp) {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@include keyframes(fadeInDown) {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+@include keyframes(fadeInRight){
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+/*
+ * CSS Page Transitions
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene {
+  /** Basic styles for an animated element */
+  .scene_element {
+    @include animation-duration(0.75s);
+    @include animation-timing-function(ease-in);
+    @include animation-fill-mode(both);
+
+  }
+
+  /** An element that fades in */
+  .scene_element--fadein {
+    @include animation-name(fadeIn);
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    @include animation-name(fadeInUp);
+  }
+
+  /** An element that fades in and slides down */
+  .scene_element--fadeindown {
+    @include animation-name(fadeInDown);
+  }
+
+  /** An element that fades in after */
+  .scene_element--fadeinafter {
+    @include animation-name(fadeInAfter);
+    @include animation-duration(1.75s);
+    @include animation-timing-function(ease-in);
+  }
+
+
+  /** An element that fades in and slides from the right */
+  .scene_element--fadeinright {
+    @include animation-name(fadeInRight);
+  }
+
+  /** Reverse "exit" animations */
+  &.is-exiting {
+      .scene_element {
+        animation-direction: alternate-reverse;
+      }
+  }
+
+
+}

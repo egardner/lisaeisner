@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+{% include head.html %}
+<body class="home m-scene" id="main">
+  {% if page.gallery %}
+    <ul class="image-list">
+      {% for slides in page.gallery %}
+        <li class="image-address">{{ slides.image }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+<div class="bleed scene_element scene_element--fadein">
+  {% include nav.html %}
+  <div class="content">
+    <div class="header-container">
+      <h1 class="scene_element scene_element--fadeinafter">{{site.title}}</h1>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+---
+layout: collection
+gallery:
+ - image: /images/01.jpg
+ - image: /images/02.jpg
+ - image: /images/03.jpg
+ - image: /images/04.jpg
+ - image: /images/05.jpg
+ - image: /images/05b.jpg
+ - image: /images/06.jpg
+ - image: /images/07.jpg
+ - image: /images/08.jpg 
+ - image: /images/09.jpg
+ - image: /images/10.jpg
+ - image: /images/11.jpg
+ - image: /images/11b.jpg
+ - image: /images/11c.jpg
+ - image: /images/12.jpg
+ - image: /images/13.jpg
+ - image: /images/14.jpg
+ - image: /images/15.jpg
+---
