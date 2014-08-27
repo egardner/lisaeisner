@@ -27,6 +27,7 @@ body.home .header-container {
 		@include media($large-screen-up) {
 			font-size: $base-font-size * 3.25;
 			letter-spacing: 7px;
+			margin-top: 36vh;
 		}
 		
 		@include media($xlarge-screen-up) {
