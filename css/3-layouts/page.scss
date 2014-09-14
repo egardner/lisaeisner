@@ -6,7 +6,7 @@
 		@include padding(2em);
 
 		@include media($medium-screen-up) {
-			@include span-columns(8 of 12);
+			@include span-columns(12 of 16);
 			@include shift(2);
 		}
 
@@ -24,12 +24,14 @@
 		h2 {
 			font-family: $futura;
 			font-style: italic;
-			font-size: 1.2em;
+			font-size: 1.15em;
 			line-height: 1.4em;
 			margin-bottom: 1.1em;
+			color: $medium-gray;
+			hyphens: auto;
 
 			@include media($medium-screen) {
-				font-size: 1.3em;
+				font-size: 1.35em;
 			}
 		  }
 
@@ -62,7 +64,7 @@
 		p {
 			font-family: $serif;
 			line-height: 1.5em;
-			font-size: 1.25em;
+			font-size: 1.15em;
 			margin-bottom: 1.5em;
 		}
 
@@ -92,5 +94,7 @@
 	 	p.author {
 			font-family: $sans-serif;
   		}
+
 	}
+
 }
