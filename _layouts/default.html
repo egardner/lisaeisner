@@ -12,11 +12,23 @@
 		{% if page.date %}
 			<p class="date">{{page.date}}</p>
 		{% endif %}
+
 		{{content}}
+
+		{% if page.gallery %}
+			<div class="gallery">
+			{% for slides in page.gallery %}
+				<img class="lead" src="{{slides.image}}">
+			{% endfor %}
+			</div>
+		{% endif %}
+
+
 		{% if page.author %}
 			<hr>
 			<p class="author">Author Name</p>
 		{% endif %}
+
 	</article>
 </div>
 </body>
