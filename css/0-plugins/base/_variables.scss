@@ -17,18 +17,18 @@ $base-border-radius: em(3);
 $blue: #477DCA;
 $dark-gray: #333;
 $medium-gray: #888;
-$light-gray: #DDD;
+$light-gray: #ccc;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 $turquoise: #3faba9;
 
 // Background Color
-$base-background-color: $dark-gray;
+$base-background-color: #191919;
 
 // Font Colors
-$base-font-color: white;
-$base-accent-color: $turquoise;
+$base-font-color: $light-gray;
+$base-accent-color: white;
 
 // Link Colors
 $base-link-color: $base-accent-color;

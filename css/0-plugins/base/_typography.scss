@@ -45,7 +45,7 @@ p {
 }
 
 a {
-  @include transition(color 0.1s linear);
+  @include transition(all 0.2s linear);
   color: $base-link-color;
   text-decoration: none;
 
@@ -57,6 +57,14 @@ a {
     color: $hover-link-color;
     outline: none;
   }
+}
+
+article a {
+  &:hover {
+    // color: $hover-link-color;
+    border-bottom: 2px solid $hover-link-color;
+  }
+
 }
 
 hr {
