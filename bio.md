@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Lisa Eisner
+title: 
 ---
 **Lisa Eisner** was raised in  Cheyenne, Wyoming, moved to New York City in 1979, and currently lives in Los Angeles with her husband. (Her two grown sons have flown the coop.)  Lisa was a fashion editor at _Mademoiselle_ and at _Vogue_, where she was the European Editor in Paris and later West Coast Editor in Los Angeles.  
 
