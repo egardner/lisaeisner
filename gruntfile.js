@@ -50,6 +50,11 @@ module.exports = function(grunt) {
             html: {
                 files: ['**/*.html', '!_site/**/*.html'],
                 tasks: ['jekyll:dist']
+            },
+
+            markdown: {
+                files: ['*.md'],
+                tasks: ['jekyll:dist']
             }
         },
 
