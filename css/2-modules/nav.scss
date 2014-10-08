@@ -1,7 +1,7 @@
 header.navigation {
   $navigation-padding: 2em;
-  $navigation-background: transparentize(black, 0.5);;
-  $navigation-color: transparentize(white, 0.25);
+  $navigation-background: transparentize(black, 0.75);;
+  $navigation-color: transparentize(white, 0.5);
   $navigation-color-hover: white;
   $navigation-height: 70px;
   $navigation-nav-button-background: $base-accent-color;
@@ -42,7 +42,7 @@ header.navigation {
       max-height: $navigation-height;
       padding: .25em 0;
       max-width: 25px;
-      opacity: 0.75;
+      opacity: 0.5;
       @include transition(opacity 0.1s linear 0s);
     }
     svg:hover {
