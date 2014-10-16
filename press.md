@@ -3,6 +3,14 @@ layout: default
 title: Press
 ---
 
+![Press](/images/ten_mag.jpg)
+<br>
+<br>
+
+![Press](/images/w_mag.jpg)
+<br>
+<br>
+
 ![Press](/images/vanity_fair_2.jpg)
 <br>
 <br>

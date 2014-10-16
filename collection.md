@@ -1,21 +1,21 @@
 ---
 layout: collection
 gallery:
- - image: /images/ring_organic.jpg
- - image: /images/necklace_flat.jpg
- - image: /images/ring_rocks.jpg
- - image: /images/necklace_point.jpg
- - image: /images/earrings_branch.jpg
- - image: /images/earrings_flat.jpg
- - image: /images/earrings_Green.jpg
- - image: /images/ladybug.jpg
- - image: /images/ring_small.jpg
- - image: /images/3_trilobites.jpg
- - image: /images/necklace_bones.jpg
- - image: /images/ring_side.jpg
- - image: /images/necklace_organic.jpg
- - image: /images/turqouise_rect.jpg
- - image: /images/turquoise_necklace_01.jpg
+ - image: /images/01.jpg
+ - image: /images/02.jpg
+ - image: /images/03.jpg
+ - image: /images/04.jpg
+ - image: /images/05.jpg
+ - image: /images/06.jpg
+ - image: /images/07.jpg
+ - image: /images/08.jpg
+ - image: /images/09.jpg
+ - image: /images/10.jpg
+ - image: /images/11.jpg
+ - image: /images/12.jpg
+ - image: /images/13.jpg
+ - image: /images/14.jpg
+ - image: /images/15.jpg
  - image: /images/24_liberty.jpg
 
 ---
