@@ -1,6 +1,8 @@
+$horizontal-bar-mode: $medium-screen;
+
 header.navigation {
   $navigation-padding: 2em;
-  $navigation-background: transparentize(black, 0.75);;
+  $navigation-background: transparentize(black, 0.65);
   $navigation-color: transparentize(white, 0.5);
   $navigation-color-hover: white;
   $navigation-height: 70px;
@@ -12,7 +14,7 @@ header.navigation {
   $navigation-active-link-color: transparentize(white, 0.5);
   $navigation-submenu-padding: 1em;
   $navigation-submenu-width: 12em;
-  $horizontal-bar-mode: $medium-screen;
+  
 
   $navigation-font-size: $base-font-size * 1.125;
   $navigation-letter-spacing: 3px;
@@ -24,6 +26,7 @@ header.navigation {
   width: 100%;
   z-index: 999;
 
+
   .navigation-wrapper {
     @include clearfix;
     @include outer-container;
@@ -31,7 +34,7 @@ header.navigation {
     z-index: 9999;
   }
 
-  .logo {
+  #logo {
     float: left;    
     max-height: $navigation-height;
     padding-left: $navigation-padding;
@@ -42,7 +45,7 @@ header.navigation {
       max-height: $navigation-height;
       padding: .25em 0;
       max-width: 25px;
-      opacity: 0.5;
+      opacity: 0.75;
       @include transition(opacity 0.1s linear 0s);
     }
     svg:hover {
@@ -263,5 +266,25 @@ header.navigation {
         }
       }
     }
+  }
+}
+
+body.collection {
+  header.navigation {
+    @include transition(all 0.2s linear 0s);
+    background-color: rgba(0,0,0,0.0);
+
+    .nav {
+      opacity: 0;
+    }
+
+    &:hover {
+      background-color: rgba(0,0,0,0.35);
+      .nav {
+        opacity: 1;
+      }
+    }
+
+
   }
 }
