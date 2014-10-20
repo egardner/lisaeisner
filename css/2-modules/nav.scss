@@ -272,19 +272,30 @@ header.navigation {
 body.collection {
   header.navigation {
     @include transition(all 0.2s linear 0s);
-    background-color: rgba(0,0,0,0.0);
-
-    .nav {
-      opacity: 0;
-    }
+    opacity: 0;
 
     &:hover {
-      background-color: rgba(0,0,0,0.35);
-      .nav {
-        opacity: 1;
-      }
+      opacity: 1;
     }
-
-
   }
 }
+
+// use this to transition everything except the logo
+
+// body.collection {
+//   header.navigation {
+//     @include transition(all 0.2s linear 0s);
+//     background-color: rgba(0,0,0,0.0);
+
+//     .nav {
+//       opacity: 0;
+//     }
+
+//     &:hover {
+//       background-color: rgba(0,0,0,0.35);
+//       .nav {
+//         opacity: 1;
+//       }
+//     }
+//   }
+// }
