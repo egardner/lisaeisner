@@ -1,9 +1,9 @@
 # Site settings
 title: Lisa Eisner Jewelry
 email: info@lisaeisnerjewelry.com
-description: "Jewelry created by artist and photographer Lisa Eisner, Los Angeles CA."
-baseurl: "/"
-url: "http://lisaeisnerjewelry.com/"
+description: 'Jewelry created by artist and photographer Lisa Eisner, Los Angeles CA.'
+baseurl: '/'
+url: 'http://lisaeisnerjewelry.com/'
 exclude: ['node_modules', 'README.md', '.sass-cache', 'gruntfile.js', 'package.json', '.gitignore', 'js/libs', 'js/jquery.js', 'css/0-plugins', 'css/base', 'css/bourbon', 'css/neat', '*.scss']
 
 # Build settings
