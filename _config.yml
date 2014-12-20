@@ -1,11 +1,9 @@
 # Site settings
 title: Lisa Eisner Jewelry
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "/"
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+email: info@lisaeisnerjewelry.com
+description: 'Jewelry created by artist and photographer Lisa Eisner, Los Angeles CA.'
+baseurl: 'http://lisaeisnerjewelry.com' # http://lisaeisnerjewelry.com or empty string
+url: 'http://lisaeisnerjewelry.com'
 exclude: ['node_modules', 'README.md', '.sass-cache', 'gruntfile.js', 'package.json', '.gitignore', 'js/libs', 'js/jquery.js', 'css/0-plugins', 'css/base', 'css/bourbon', 'css/neat', '*.scss']
 
 # Build settings
