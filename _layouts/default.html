@@ -18,7 +18,7 @@
 		{% if page.gallery %}
 			<div class="gallery">
 			{% for slides in page.gallery %}
-				<img class="lead" src="{{slides.image}}">
+				<img class="lead" src="{{site.baseurl}}{{slides.image}}">
 			{% endfor %}
 			</div>
 		{% endif %}
