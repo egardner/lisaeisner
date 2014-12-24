@@ -1,6 +1,6 @@
 ---
 title: Tom Ford Collection
-layout: collection
+layout: grid
 gallery:
  - image: /images/tomford_01.jpg
  - image: /images/tomford_02.jpg

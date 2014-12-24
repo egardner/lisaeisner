@@ -10,10 +10,7 @@ title: Press
 
 T Magazine, December 2014  
 ![T Magazine, December 2014]({{site.baseurl}}/images/tmag_dec2014_1.jpg)
-<br>
-<br>
-
-T Magazine, December 2014  
+  
 ![T Magazine, December 2014]({{site.baseurl}}/images/tmag_dec2014_2.jpg)
 <br>
 <br>
