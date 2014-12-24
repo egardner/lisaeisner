@@ -15,31 +15,37 @@ T Magazine, December 2014
 <br>
 <br>
 
+Harper's Bazaar  
+![Harper's Bazaar]({{site.baseurl}}/images/harpers_dec2014.jpg)
+<br>
+<br>
+
+
 Ten Magazine  
-![Press]({{site.baseurl}}/images/ten_mag.jpg)
+![Ten Magazine]({{site.baseurl}}/images/ten_mag.jpg)
 <br>
 <br>
 
 W Magazine  
-![Press]({{site.baseurl}}/images/w_mag.jpg)
+![W Magazine]({{site.baseurl}}/images/w_mag.jpg)
 <br>
 <br>
 
 Vanity Fair  
-![Press]({{site.baseurl}}/images/vanity_fair_2.jpg)
+![Vanity Fair]({{site.baseurl}}/images/vanity_fair_2.jpg)
 <br>
 <br>
 
 Vanity Fair  
-![Press]({{site.baseurl}}/images/vanity_fair.jpg)
+![Vanity Fair]({{site.baseurl}}/images/vanity_fair.jpg)
 <br>
 <br>
 
 C Magazine  
-![Press]({{site.baseurl}}/images/c_mag.jpg)
+![C Magazine]({{site.baseurl}}/images/c_mag.jpg)
 <br>
 <br>
 
 Net-A-Porter  
-![Press]({{site.baseurl}}/images/greybull237.jpeg)
+![Net-a-Porter]({{site.baseurl}}/images/greybull237.jpeg)
 
