@@ -4,32 +4,32 @@
 <body class="m-scene" id="main">
 {% include nav.html %}
 <div class="content">
-	<article class="scene_element scene_element--fadein">
-		<h1>{{page.title}}</h1>
-		{% if page.callout %}
-			<h2>{{page.callout}}</h2>
-		{% endif %}
-		{% if page.date %}
-			<p class="date">{{page.date}}</p>
-		{% endif %}
+  <article class="scene_element scene_element--fadein">
+    <h1>{{page.title}}</h1>
+    {% if page.callout %}
+      <h2>{{page.callout}}</h2>
+    {% endif %}
+    {% if page.date %}
+      <p class="date">{{page.date}}</p>
+    {% endif %}
 
-		{{content}}
+    {{content}}
 
-		{% if page.gallery %}
-			<div class="gallery">
-			{% for slides in page.gallery %}
-				<img class="lead" src="{{site.baseurl}}{{slides.image}}">
-			{% endfor %}
-			</div>
-		{% endif %}
+    {% if page.gallery %}
+      <div class="gallery">
+      {% for slides in page.gallery %}
+        <img class="lead" src="{{site.baseurl}}{{slides.image}}">
+      {% endfor %}
+      </div>
+    {% endif %}
 
 
-		{% if page.author %}
-			<hr>
-			<p class="author">Author Name</p>
-		{% endif %}
+    {% if page.author %}
+      <hr>
+      <p class="author">Author Name</p>
+    {% endif %}
 
-	</article>
+  </article>
 </div>
 </body>
 </html>

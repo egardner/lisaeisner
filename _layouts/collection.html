@@ -3,34 +3,34 @@
 {% include head.html %}
 <body class="collection">
 <div class="backstretch">
-	{% include nav.html %}
+  {% include nav.html %}
 </div>
 <div class="controls">
-	<a href="" id="left"><i class="fa fa-angle-left"></i></a>
-	<!-- <i class="fa fa-square-o"></i> -->
-	<a href="" id="right"><i class="fa fa-angle-right"></i></a>
+  <a href="" id="left"><i class="fa fa-angle-left"></i></a>
+  <!-- <i class="fa fa-square-o"></i> -->
+  <a href="" id="right"><i class="fa fa-angle-right"></i></a>
 </div>
 {% if page.gallery %}
 <script type="text/javascript">
     $.backstretch([
-    	{% for slides in page.gallery %}
-    	"{{site.baseurl}}{{slides.image}}",
-    	{% endfor %} ], {
+      {% for slides in page.gallery %}
+      "{{site.baseurl}}{{slides.image}}",
+      {% endfor %} ], {
         fade: 750,
         duration: 4000
     });
     // Pause the slideshow
-	$("#left").click(function (e) {
+  $("#left").click(function (e) {
         e.preventDefault();
         // $.backstretch("cachePrev");
-	    $.backstretch("prev");
-	});
-	    
-	$("#right").click(function (e) {
+      $.backstretch("prev");
+  });
+      
+  $("#right").click(function (e) {
         e.preventDefault();
         // $.backstretch("cacheNext");
-	    $.backstretch("next");
-	});
+      $.backstretch("next");
+  });
 
 </script>
 {% endif %}

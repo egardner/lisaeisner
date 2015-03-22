@@ -1,0 +1,12 @@
+ul.image-list {
+  @include hide-text;
+  height: 0px;
+}
+
+.bleed {
+  @include background-image(url(#{$home-default-image}));
+  background-size: cover;
+  height: 100vh;
+  widows: 100%;
+}
+

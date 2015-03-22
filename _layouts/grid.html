@@ -4,25 +4,25 @@
 <body class="m-scene" id="main">
 {% include nav.html %}
 <div class="content">
-	<article class="scene_element scene_element--fadein">
-		<h1>{{page.title}}</h1>
-		{% if page.callout %}
-			<h2>{{page.callout}}</h2>
-		{% endif %}
-		{% if page.date %}
-			<p class="date">{{page.date}}</p>
-		{% endif %}
+  <article class="scene_element scene_element--fadein">
+    <h1>{{page.title}}</h1>
+    {% if page.callout %}
+      <h2>{{page.callout}}</h2>
+    {% endif %}
+    {% if page.date %}
+      <p class="date">{{page.date}}</p>
+    {% endif %}
 
-		{{content}}
-	</article>
+    {{content}}
+  </article>
 {% if page.gallery %}
-	<div id="grid" class="scene_element scene_element--fadeinafter">
-		<ul>
-			{% for slides in page.gallery %}
-				<li><img src="{{site.baseurl}}{{slides.image}}"></li>
-			{% endfor %}
-		</ul>
-	</div>
+  <div id="grid" class="scene_element scene_element--fadeinafter">
+    <ul>
+      {% for slides in page.gallery %}
+        <li><img src="{{site.baseurl}}{{slides.image}}"></li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endif %}
 
 </div>

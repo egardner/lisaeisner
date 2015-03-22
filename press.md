@@ -6,8 +6,8 @@ title: Press
 
 [Willow Smith Wears Lisa Eisner](http://www.crfashionbook.com/book/willow-smith-lisa-eisner/)  
 
-![Willow Smith wears Lisa Eisner]({{site.baseurl}}/images/willow_a.jpg)  
-![Willow Smith wears Lisa Eisner]({{site.baseurl}}/images/willow_b.jpg) 
+![Willow Smith wears Lisa Eisner]({{site.baseurl}}/assets/img/willow_a.jpg)  
+![Willow Smith wears Lisa Eisner]({{site.baseurl}}/assets/img/willow_b.jpg) 
 <br>
 <br>
 
@@ -20,43 +20,43 @@ title: Press
   </div>
 </div>
 
-![T Magazine, December 2014]({{site.baseurl}}/images/tmag_dec2014_1.jpg)
+![T Magazine, December 2014]({{site.baseurl}}/assets/img/tmag_dec2014_1.jpg)
   
-![T Magazine, December 2014]({{site.baseurl}}/images/tmag_dec2014_2.jpg)
+![T Magazine, December 2014]({{site.baseurl}}/assets/img/tmag_dec2014_2.jpg)
 <br>
 <br>
 
 ### Harper's Bazaar  
-![Harper's Bazaar]({{site.baseurl}}/images/harpers_dec2014.jpg)
+![Harper's Bazaar]({{site.baseurl}}/assets/img/harpers_dec2014.jpg)
 <br>
 <br>
 
 
 ### Ten Magazine  
-![Ten Magazine]({{site.baseurl}}/images/ten_mag.jpg)
+![Ten Magazine]({{site.baseurl}}/assets/img/ten_mag.jpg)
 <br>
 <br>
 
 ### W Magazine  
-![W Magazine]({{site.baseurl}}/images/w_mag.jpg)
+![W Magazine]({{site.baseurl}}/assets/img/w_mag.jpg)
 <br>
 <br>
 
 ### Vanity Fair  
-![Vanity Fair]({{site.baseurl}}/images/vanity_fair_2.jpg)
+![Vanity Fair]({{site.baseurl}}/assets/img/vanity_fair_2.jpg)
 <br>
 <br>
 
 ### Vanity Fair  
-![Vanity Fair]({{site.baseurl}}/images/vanity_fair.jpg)
+![Vanity Fair]({{site.baseurl}}/assets/img/vanity_fair.jpg)
 <br>
 <br>
 
 ### C Magazine  
-![C Magazine]({{site.baseurl}}/images/c_mag.jpg)
+![C Magazine]({{site.baseurl}}/assets/img/c_mag.jpg)
 <br>
 <br>
 
 ### Net-A-Porter  
-![Net-a-Porter]({{site.baseurl}}/images/greybull237.jpeg)
+![Net-a-Porter]({{site.baseurl}}/assets/img/greybull237.jpeg)
 
