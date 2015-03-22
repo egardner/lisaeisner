@@ -14,7 +14,7 @@
 <script type="text/javascript">
     $.backstretch([
     	{% for slides in page.gallery %}
-    	"{{slides.image}}",
+    	"{{site.baseurl}}{{slides.image}}",
     	{% endfor %} ], {
         fade: 750,
         duration: 4000

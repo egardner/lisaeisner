@@ -5,7 +5,7 @@
   {% if page.gallery %}
     <ul class="image-list">
       {% for slides in page.gallery %}
-        <li class="image-address">{{ slides.image }}</li>
+        <li class="image-address">{{site.baseurl}}{{ slides.image }}</li>
       {% endfor %}
     </ul>
   {% endif %}

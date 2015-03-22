@@ -14,22 +14,17 @@
 		{% endif %}
 
 		{{content}}
-
-		{% if page.gallery %}
-			<div class="gallery">
-			{% for slides in page.gallery %}
-				<img class="lead" src="{{site.baseurl}}{{slides.image}}">
-			{% endfor %}
-			</div>
-		{% endif %}
-
-
-		{% if page.author %}
-			<hr>
-			<p class="author">Author Name</p>
-		{% endif %}
-
 	</article>
+{% if page.gallery %}
+	<div id="grid" class="scene_element scene_element--fadeinafter">
+		<ul>
+			{% for slides in page.gallery %}
+				<li><img src="{{site.baseurl}}{{slides.image}}"></li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endif %}
+
 </div>
 </body>
 </html>
