@@ -8,6 +8,6 @@ exclude: ['node_modules', 'README.md', '.sass-cache', 'gruntfile.js', 'package.j
 
 # Build settings
 markdown: kramdown
-permalink: none
+# permalink: none
 sass:
     style: compressed
