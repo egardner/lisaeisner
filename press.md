@@ -1,35 +1,14 @@
 ---
 layout: default
 title: Press
+permalink: /press/
 ---
-### CR Fashion Book, March 2015  
-
-[Willow Smith Wears Lisa Eisner](http://www.crfashionbook.com/book/willow-smith-lisa-eisner/)  
-
-![Willow Smith wears Lisa Eisner]({{site.baseurl}}/assets/img/willow_a.jpg)  
-![Willow Smith wears Lisa Eisner]({{site.baseurl}}/assets/img/willow_b.jpg) 
-<br>
-<br>
-
-
-### T Magazine, December 2014  
-
-<div class="video">
-  <div class="video-wrapper">
-    <iframe src="//player.vimeo.com/video/115025561?byline=0&amp;portrait=0" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/115025561">Lisa Eisner at Home | T Magazine</a> from <a href="http://vimeo.com/user35635935">Lisa Eisner Jewelry</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  </div>
-</div>
-
-![T Magazine, December 2014]({{site.baseurl}}/assets/img/tmag_dec2014_1.jpg)
-  
-![T Magazine, December 2014]({{site.baseurl}}/assets/img/tmag_dec2014_2.jpg)
-<br>
-<br>
-
-### Harper's Bazaar  
-![Harper's Bazaar]({{site.baseurl}}/assets/img/harpers_dec2014.jpg)
-<br>
-<br>
+{% for post in site.posts %}
+  <a href="{{site.baseurl}}{{post.url}}"><h3>{{post.title}}</h3></a>
+  <p class="date">{{post.date | date_to_long_string }}</p>
+  <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{post.gallery[0].image}}" /></a>
+  <br />
+{% endfor %}
 
 
 ### Ten Magazine  
