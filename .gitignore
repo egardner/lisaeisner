@@ -55,3 +55,5 @@ css/build/global.css
 js/build/production.js
 
 js/build/production.min.js
+
+*._t_
