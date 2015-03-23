@@ -1,21 +1,21 @@
 ---
 layout: collection
 gallery:
- - image: /images/01.jpg
- - image: /images/02.jpg
- - image: /images/03.jpg
- - image: /images/04.jpg
- - image: /images/05.jpg
- - image: /images/06.jpg
- - image: /images/07.jpg
- - image: /images/08.jpg
- - image: /images/09.jpg
- - image: /images/10.jpg
- - image: /images/11.jpg
- - image: /images/12.jpg
- - image: /images/13.jpg
- - image: /images/14.jpg
- - image: /images/15.jpg
- - image: /images/24_liberty.jpg
+ - image: /assets/img/01.jpg
+ - image: /assets/img/02.jpg
+ - image: /assets/img/03.jpg
+ - image: /assets/img/04.jpg
+ - image: /assets/img/05.jpg
+ - image: /assets/img/06.jpg
+ - image: /assets/img/07.jpg
+ - image: /assets/img/08.jpg
+ - image: /assets/img/09.jpg
+ - image: /assets/img/10.jpg
+ - image: /assets/img/11.jpg
+ - image: /assets/img/12.jpg
+ - image: /assets/img/13.jpg
+ - image: /assets/img/14.jpg
+ - image: /assets/img/15.jpg
+ - image: /assets/img/24_liberty.jpg
 
 ---

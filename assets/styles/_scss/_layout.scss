@@ -1,0 +1,208 @@
+html {
+  @include hidpi(1.5) {
+    //-webkit-text-stroke: .35px;
+  }
+}
+
+.has-footer {
+  @include display(flex);
+  @include flex-direction(column);
+  min-height: 100vh;
+
+  #bottom {
+    @include flex(1);
+    background-color: darken($purple, 8);
+    width: 100%;
+    font-weight: 300;
+
+    a {
+      @include transition(color .1s linear);
+      color: transparentize(#fff, .5);
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+// basic page margins
+.content { 
+  @include outer-container;
+  padding: 1rem;
+
+  a {
+    @include transition(color .1s linear);
+    color: transparentize(#fff, .25);
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  aside {
+
+    @include media($medium-screen-down){
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+    font-size: $base-font-size * 1.1;
+    font-weight: 200;
+    letter-spacing: $base-letter-spacing;
+    line-height: 1.4;
+    
+    .scroll-to-top {
+      display: none;
+    }
+  }
+}
+
+a.readmore {
+  opacity: 0.65;
+  font-size: $base-font-size * 0.9;
+}
+
+ul.press {
+  @include fill-parent();
+  padding-left: 0;
+  margin-top: 1.5rem;
+  list-style-type: none;
+
+  li {
+    @include media($medium-screen-up) {
+      @include span-columns(4);
+      @include omega(3n);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    img {
+      @include transition(opacity .1s linear);
+      opacity: 0.75;
+      
+      &:hover {
+        opacity: 1;
+      }
+      @include media($medium-screen-up) {
+        margin: .5rem auto;
+      }
+
+      height: 40px;
+      display: block;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+#top { 
+  $header-image: '../img/header_banner_2.jpg';
+  @include background(url($header-image));
+  background-color: darken($base-accent-color, 24);
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.article-header {
+  margin-bottom: $base-font-size * 2;
+  margin-top: 0;
+  h1 { margin-top: 1rem; }
+  .meta, 
+  .author {color: #fff; }
+}
+
+
+#bottom section {
+  font-size: $base-font-size * .85;
+  opacity: .65;
+
+  @include media($medium-screen-up) {
+    @include span-columns(4);
+    margin: 1rem 0;
+  }
+}
+
+#bottom section.right {
+  @include media($medium-screen-up) {
+    @include span-columns(4);
+    @include shift(4);
+  }
+}
+
+// responsive layout
+@include media ($medium-screen-up) {
+  .article-header { margin-top: $base-font-size * 4; }
+}
+
+@include media ($large-screen-up) {
+  .article-header { margin-top: $base-font-size * 5; }
+}
+
+// fix for nav bar overlap
+@media screen and (max-width: $medium-screen) {
+  .article-header h1 {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+}
+
+// article list
+.articles li { 
+  margin-bottom: $base-font-size * 2; 
+
+  .intro {
+    margin-bottom: $base-font-size * 3;
+  }
+}
+
+
+// 2-column layout
+@include media($medium-screen-up) {
+
+  .content aside {
+    @include span-columns(4);
+    margin-top: 30px;
+
+    .scroll-to-top {
+      display: inline;
+      position: relative;
+      top: 20px;
+    }
+      
+    li {
+      margin-bottom: .75em;
+    }
+  }
+  
+  .main-column {
+    @include span-columns(8);
+    @include omega;
+  }
+}
+
+// responsive video
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    @include position(absolute, 0 null null 0);
+    @include size(100%);
+  }
+}
+

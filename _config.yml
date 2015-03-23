@@ -1,13 +1,35 @@
-# Site settings
+# Site Settings
+#===============================================================================
 title: Lisa Eisner Jewelry
 email: info@lisaeisnerjewelry.com
-description: 'Jewelry created by artist and photographer Lisa Eisner, Los Angeles CA.'
-baseurl: 'http://lisaeisnerjewelry.com' # http://lisaeisnerjewelry.com or empty string
-url: 'http://lisaeisnerjewelry.com'
-exclude: ['node_modules', 'README.md', '.sass-cache', 'gruntfile.js', 'package.json', '.gitignore', 'js/libs', 'js/jquery.js', 'css/0-plugins', 'css/base', 'css/bourbon', 'css/neat', '*.scss']
+description: "Jewelry created by artist and photographer Lisa Eisner, Los Angeles CA."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
 # Build settings
-markdown: kramdown
-# permalink: none
+#===============================================================================
+markdown: redcarpet
+redcarpet: 
+  extensions: ["smart", "strikethrough"]
+
+highlighter: pygments
+exclude: [Gemfile, Gemfile.lock, readme.md]
+
+# Permalinks
+#===============================================================================
+permalink: none
+
+# Assets
+#===============================================================================
 sass:
-    style: compressed
+  sass_dir: assets/styles/_scss  # default is _sass
+  style: compressed # set to compressed for production
+
+
+# Prose Settings
+#===============================================================================
+prose:
+  ignore: ['.gitignore', '_config.yml', 'test.html', 'Gemfile', 'Gemfile.lock', 'assets', '_includes', '_layouts', '_data']
+
+
+

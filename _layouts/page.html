@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign article_attr = "" %}
+{% if page.sidebar %}
+  {% capture article_attr %}class="main-column"{% endcapture %}
+  <aside>
+    <ul class="sections">
+    {% for item in page.sidebar %}
+      <li><a href="{{item.link}}" class="scroll-to-link">{{item.section}}</a></li>
+    {% endfor %}
+      <li><a href="#article-top" class="scroll-to-link scroll-to-top smaller">Back to Top</a></li>
+    </ul>
+  </aside>
+{% endif %}
+<article {{article_attr}} id="article-top">
+  {{content}}
+</article>
