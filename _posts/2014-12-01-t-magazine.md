@@ -3,8 +3,8 @@ title: "Lisa Eisner at Home: T-Magazine"
 permalink: /press/t-magazine-video.html
 layout: default
 gallery:
- - image: /assets/img/tmag_dec2014_1.jpg
  - image: /assets/img/tmag_dec2014_2.jpg
+ - image: /assets/img/tmag_dec2014_1.jpg
 ---
 Lisa Eisner featured in the _New York Times_ T Magazine's video section.
 

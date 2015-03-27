@@ -16,11 +16,6 @@ permalink: /press/
 <br>
 <br>
 
-### W Magazine  
-![W Magazine]({{site.baseurl}}/assets/img/w_mag.jpg)
-<br>
-<br>
-
 ### Vanity Fair  
 ![Vanity Fair]({{site.baseurl}}/assets/img/vanity_fair_2.jpg)
 <br>
