@@ -8,11 +8,12 @@
 @import "base/grid-settings";
 @import "lib/neat/neat";
 
-
+/* Custom variables
+ * ---------------------------------------------------------------------------*/
+$home-default-image: "{{site.baseurl}}/assets/img/bracelet_blurred.jpg";
 
 /* Globals
  * ---------------------------------------------------------------------------*/
-@import "fonts";
 @import "base/base";
 @import "syntax";
 @import "bleed";

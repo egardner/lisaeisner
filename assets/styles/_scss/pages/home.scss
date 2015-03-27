@@ -13,7 +13,7 @@ body.home .header-container {
 		margin-top: 27vh;
 		font-family: $header-font-family;
 		color: transparentize(white, 0.1);
-		font-weight: 300;
+		font-weight: 500;
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		@include transition (all .2s ease-in-out);
