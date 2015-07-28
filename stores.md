@@ -2,10 +2,9 @@
 layout: stores
 title: Stores
 ---
-- [*Maxfield*](http://www.maxfieldla.com/), Los Angeles
-- [*Dover Street Market*](http://newyork.doverstreetmarket.com/), New york
-- [*Ikram*](http://www.ikram.com/), Chicago
-- [*Colette*](http://www.colette.fr/), Paris
+- [**Maxfield**](http://www.maxfieldla.com/), Los Angeles
+- [**Colette**](http://www.colette.fr/), Paris
+- [**Karry'O**](http://www.karryo.com/), Paris
 
 <br />
 
