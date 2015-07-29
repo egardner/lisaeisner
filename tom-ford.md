@@ -2,25 +2,20 @@
 title: Tom Ford Collection
 layout: grid
 gallery:
- - image: /assets/img/tf_aw2015_1.jpg
  - image: /assets/img/tomford_05.jpg
  - image: /assets/img/tf_aw2015_2.jpg
  - image: /assets/img/tomford_08.jpg
+ - image: /assets/img/aw2015_tomford_ad_1.jpg
  - image: /assets/img/tf_aw2015_3.jpg
  - image: /assets/img/tomford_03.jpg
- - image: /assets/img/tf_aw2015_4.jpg
- - image: /assets/img/tomford_2015_1.jpg
  - image: /assets/img/tomford_07.jpg
- - image: /assets/img/tomford_06.jpg
- - image: /assets/img/tf_aw2015_6.jpg
  - image: /assets/img/tomford_02.jpg
- - image: /assets/img/tf_aw2015_7.jpg
- - image: /assets/img/tomford_01.jpg
- - image: /assets/img/tf_aw2015_8.jpg
  - image: /assets/img/tf_aw2015_9.jpg
+ - image: /assets/img/tomford_01.jpg
+ - image: /assets/img/tomford_06.jpg
+ - image: /assets/img/aw2015_tomford_ad_2.jpg
  - image: /assets/img/tf_aw2015_10.jpg
  - image: /assets/img/tomford_2015_2.jpg
  - image: /assets/img/tomford_04.jpg
- - image: /assets/img/tf_aw2015_5.jpg
 
 ---
