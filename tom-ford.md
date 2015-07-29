@@ -17,5 +17,4 @@ gallery:
  - image: /assets/img/tf_aw2015_10.jpg
  - image: /assets/img/tomford_2015_2.jpg
  - image: /assets/img/tomford_04.jpg
-
 ---
