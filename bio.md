@@ -8,5 +8,5 @@ After more than 15 years in the fashion business, she decided to focus on her ow
 
 Eisner has contributed to _W_, _Vogue Paris_, _Pop_, _The New York Times Magazine_, _T Magazine_, _Vanity Fair_, _Travel + Leisure_, _Departures_, _Harpers Bazaar_ and _Liberation_. Solo shows of her of her photographs have been exhibited at Jan Kesner (_Rodeo Girl_, 2000) and M+B Gallery (_A Butterfly Fluttered By_, 2006 and _Psychonaut_, 2010). In 2014, she launched her own hand crafted line of jewelry.  
 
-For inquiries, contact [studio@lisaeisnerjewelry.com](mailto:studio@lisaeisnerjewelry.com)
+For inquiries, contact [studio@lisaeisner.com](mailto:studio@lisaeisner.com)
 
