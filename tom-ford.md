@@ -7,8 +7,8 @@ gallery:
  - image: /assets/img/tomford_02.jpg
  - image: /assets/img/tomford_08.jpg
 
+ - image: /assets/img/tomford_09.jpg
  - image: /assets/img/tf_aw2015_9.jpg
- - image: /assets/img/tomford_01.jpg
  - image: /assets/img/tf_aw2015_3.jpg
  - image: /assets/img/tomford_05.jpg
 
