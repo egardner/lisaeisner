@@ -7,13 +7,14 @@ gallery:
  - image: /assets/img/tomford_02.jpg
  - image: /assets/img/tomford_08.jpg
 
- - image: /assets/img/tomford_09.jpg
+
+ - image: /assets/img/aw2015_tomford_ad_2.jpg
  - image: /assets/img/tf_aw2015_9.jpg
  - image: /assets/img/tf_aw2015_3.jpg
- - image: /assets/img/tomford_05.jpg
 
  - image: /assets/img/tf_aw2015_10.jpg
- - image: /assets/img/aw2015_tomford_ad_2.jpg
+ - image: /assets/img/tomford_05.jpg
+ - image: /assets/img/tomford_03.jpg
  - image: /assets/img/tomford_07.jpg
  - image: /assets/img/tomford_06.jpg
 ---
