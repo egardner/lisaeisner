@@ -5,7 +5,7 @@ layout: default
 gallery:
  - image: /assets/img/tom_ford_video.jpg
 ---
-Lisa Eisner's jewelry featured in a new vide from Tom Ford:
+Lisa Eisner's jewelry featured in a new video from Tom Ford:
 
 <div class="video">
   <div class="video-wrapper">
