@@ -5,8 +5,6 @@ gallery:
  - image: /assets/img/tf_aw2015_2.jpg
  - image: /assets/img/aw2015_tomford_ad_1.jpg
  - image: /assets/img/tomford_02.jpg
- - image: /assets/img/tomford_08.jpg
-
 
  - image: /assets/img/aw2015_tomford_ad_2.jpg
  - image: /assets/img/tf_aw2015_9.jpg
