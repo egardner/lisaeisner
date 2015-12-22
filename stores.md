@@ -3,7 +3,7 @@ layout: stores
 title: Stores
 ---
 - [**Maxfield**](http://www.maxfieldla.com/), Los Angeles
-- [**Karry Berreby**](http://www.karryberreby.com/fr/.com/), Paris
+- [**Karry Berreby**](http://www.karryberreby.com/), Paris
 
 <br />
 
