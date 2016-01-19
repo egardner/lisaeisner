@@ -1,7 +1,12 @@
 ---
 layout: collection
 gallery:
- - image: /assets/img/01.jpg
+ - image: /assets/img/2016_01.jpg
+ - image: /assets/img/2016_02.jpg
+ - image: /assets/img/2016_03.jpg
+ - image: /assets/img/2016_04.jpg
+ - image: /assets/img/2016_05.jpg
+ - image: /assets/img/1.jpg
  - image: /assets/img/02.jpg
  - image: /assets/img/03.jpg
  - image: /assets/img/04.jpg
@@ -17,5 +22,4 @@ gallery:
  - image: /assets/img/14.jpg
  - image: /assets/img/15.jpg
  - image: /assets/img/24_liberty.jpg
-
 ---
