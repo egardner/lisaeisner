@@ -17,7 +17,6 @@ gallery:
  - image: /assets/img/09.jpg
  - image: /assets/img/10.jpg
  - image: /assets/img/11.jpg
- - image: /assets/img/12.jpg
  - image: /assets/img/13.jpg
  - image: /assets/img/14.jpg
  - image: /assets/img/15.jpg
