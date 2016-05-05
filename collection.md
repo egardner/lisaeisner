@@ -1,9 +1,9 @@
 ---
 layout: collection
 gallery:
+ - image: /assets/img/2__LE45938.jpg
+ - image: /assets/img/1__LE42487.jpg
  - image: /assets/img/2016_01.jpg
- - image: /assets/img/2016_02.jpg
- - image: /assets/img/2016_03.jpg
  - image: /assets/img/2016_04.jpg
  - image: /assets/img/2016_05.jpg
  - image: /assets/img/1.jpg
