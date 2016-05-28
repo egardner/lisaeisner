@@ -8,4 +8,4 @@ title: Stores
 
 <br />
 
-For inquiries, please contact: <a href="mailto:info@lisaeisnerjewelry.com">info@lisaeisnerjewelry.com</a>
+For inquiries, please contact: <a href="mailto:studio@lisaeisnerjewelry.com">studio@lisaeisnerjewelry.com</a>
